@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "GothamPro";
+  src:
+    local("circe"),
+    url(~assets/fonts/circe.woff2)format("woff2"),
+    url(~assets/fonts/circe.woff) format("woff"),
+    url(~assets/fonts/circe.ttf) format("ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GothamPro";
+  src:
+    local("circe_bold"),
+    url("../fonts/circe_bold.woff2") format("woff2"),
+    url("../fonts/circe_bold.woff") format("woff"),
+    url("../fonts/circe_bold.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
