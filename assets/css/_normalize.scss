@@ -7,20 +7,18 @@ html {
     height: auto;
     border-radius: 8px;
   }
-
   &::-webkit-scrollbar-track {
     background: #f1f1f1;
     border-radius: 8px;
   }
-
   &::-webkit-scrollbar-thumb {
     background: rgba(58, 75, 90, 1);
     border-radius: 6px;
   }
-
   &::-webkit-scrollbar-thumb:hover {
     background: rgba(51, 52, 54, 1);
   }
+
 }
 
 li {
@@ -34,7 +32,6 @@ body {
   min-width: 375px;
   font-family: "circe", "Arial", sans-serif;
   font-style: normal;
-  font-size: 16px;
   line-height: 1.3;
   font-weight: 400;
   overflow-x: hidden;

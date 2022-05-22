@@ -6,13 +6,13 @@
       </h2>
       <div class="success-stories-blocks">
         <div class="success-stories-block">
-          <img class="success-stories__img-one" src="~assets/img/success1.svg" alt="Пекарня" width="200">
+          <img class="success-stories__img" src="~assets/img/success1.svg" alt="Пекарня" width="200">
           <div class="success-stories-block-inform">
             <p class="success-stories__name">
               Пекарня “Русские традиции”
             </p>
             <div class="success-stories__red-block">
-              <img src="~assets/img/redBlock.svg" alt="Блок" width="40">
+              <img class="success-stories__red-block-img" src="~assets/img/redBlock.svg" alt="Блок" width="40">
               <p class="success-stories__red-text">
                 Как говорит сам Владимир: «мне хотелось, чтобы все узнали, что<br> такое русская кухня», «обьяснить, что она жива».
               </p>
@@ -29,13 +29,13 @@
           </div>
         </div>
         <div class="success-stories-block">
-          <img class="success-stories__img-one" src="~assets/img/success2.svg" alt="Автомастерская" width="200">
+          <img class="success-stories__img" src="~assets/img/success2.svg" alt="Автомастерская" width="200">
           <div class="success-stories-block-inform">
             <p class="success-stories__name">
               Автомастерская
             </p>
             <div class="success-stories__red-block">
-              <img src="~assets/img/redBlock.svg" alt="Блок" width="40">
+              <img class="success-stories__red-block-img" src="~assets/img/redBlock.svg" alt="Блок" width="40">
               <p class="success-stories__red-text">
                 Первые дни независимости. Когда не нужно рано вставать, когда не нужно отпрашиваться, что бы успеть съездить в магазин, когда удобно.
               </p>
@@ -52,13 +52,13 @@
           </div>
         </div>
         <div class="success-stories-block">
-          <img class="success-stories__img-one" src="~assets/img/success3.svg" alt="Салон красоты" width="200">
+          <img class="success-stories__img" src="~assets/img/success3.svg" alt="Салон красоты" width="200">
           <div class="success-stories-block-inform">
             <p class="success-stories__name">
               Салон красоты “Эмират”
             </p>
             <div class="success-stories__red-block">
-              <img src="~assets/img/redBlock.svg" alt="Блок" width="40">
+              <img class="success-stories__red-block-img" src="~assets/img/redBlock.svg" alt="Блок" width="40">
               <p class="success-stories__red-text">
                 Когда же появилась возможность открыть свой бизнес, я рассматривала различные варианты, изучала всевозможные направления.
               </p>
@@ -183,7 +183,10 @@ export default {
     }
   }
 }
-.success-stories__img-one{
+.success-stories__img{
   width: 326rem;
+}
+.success-stories__red-block-img{
+  width: 45rem;
 }
 </style>

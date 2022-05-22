@@ -4,6 +4,7 @@
     <MainComponent />
     <AdvantagesComponent />
     <SuccessStories />
+    <QuestionsComponent />
     <FooterComponent />
   </div>
 </template>
@@ -14,8 +15,9 @@ import MainComponent from '~/components/Main'
 import AdvantagesComponent from '~/components/Advantages'
 import SuccessStories from '~/components/Success-stories'
 import FooterComponent from '~/components/Footer'
+import QuestionsComponent from '~/components/Questions'
 export default {
   name: 'IndexPage',
-  components: { FooterComponent, SuccessStories, AdvantagesComponent, HeaderComponent, MainComponent }
+  components: { QuestionsComponent, FooterComponent, SuccessStories, AdvantagesComponent, HeaderComponent, MainComponent }
 }
 </script>
