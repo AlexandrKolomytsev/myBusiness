@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "GothamPro";
+  font-family: "circe";
   src:
     local("circe"),
     url(~assets/fonts/circe.woff2)format("woff2"),
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-  font-family: "GothamPro";
+  font-family: "circe";
   src:
     local("circe_bold"),
     url("../fonts/circe_bold.woff2") format("woff2"),

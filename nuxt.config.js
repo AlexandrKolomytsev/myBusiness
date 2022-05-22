@@ -18,7 +18,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~assets/css/_normalize.css',
+    '~assets/css/_normalize.scss',
     '~assets/css/_fonts.css',
   ],
 
