@@ -7,7 +7,7 @@ module.exports = {
       blue: '#3865A7',
       white: '#FFFFFF',
       black: '#000000',
-      lightBlack: '#2F2F2F',
+      lightBlack: '#2F2F2F'
     },
     extend: {
       zIndex: {
